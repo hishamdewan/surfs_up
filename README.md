@@ -22,8 +22,8 @@ Given range of temperature and average temperature in June and December, the mod
 
 1) june_prcp = session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 6)
 
-![june_prcp](/Resources/june_prcp.png)
+![june_prcp](/Resources/june_prcp.PNG)
 
 2) dec_prcp = session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 12)
 
-![dec_prcp](/Resources/dec_prcp.png)
+![dec_prcp](/Resources/dec_prcp.PNG)
