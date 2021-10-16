@@ -71,6 +71,7 @@ def stats(start=None, end=None):
     temps = list(np.ravel(results))
     return jsonify(temps)
 
+
 # import app
 
 # print("example __name__ = %s", __name__)

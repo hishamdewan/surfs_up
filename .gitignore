@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+# Files to ingore
+SurfsUp_Challenge_starter_code.ipynb
+climate_analysis.ipynb
+app.py
+
+
 # Distribution / packaging
 .Python
 build/
